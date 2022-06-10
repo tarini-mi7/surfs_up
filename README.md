@@ -2,14 +2,14 @@
 Weather analysis with Python, SQLite, SQLAlchemy, and Flask
 
 ## Overview
-The purpose of this analysis was to examine weather trends (precipitation, temperature) in "June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round." In order to do that we performed the below things:
+The purpose of this analysis was to examine weather trends (precipitation, temperature) in "June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round." In order to do that we performed the following:
 
-- Accessed meteorological data in an SQLite file;
-- Wrote queries to examine temperature data collected in the months of June and December;
+- Accessed meteorological data in a SQLite file;
+- Written queries to examine temperature data collected in the months of June and December;
 - Calculated summary statistics (especially min, max, and average temperatures collected).
 
 ## Results
-The data collected presented a pretty ideal location for a year-round surf-and-ice cream business.
+The collected data presents a pretty ideal location for a year-round surf-and-ice cream business.
 
 ![June Temps](https://github.com/tarini-mi7/surfs_up/blob/main/Resources/june_temp.png) ![Dec Temps](https://github.com/tarini-mi7/surfs_up/blob/main/Resources/dec_temps.png)
 
@@ -24,7 +24,7 @@ Most temperature observations ranged within about 4 degrees on either side of th
 Less than 3/4 of daily rainfall measurements, over a three year period, show less than 0.14 inches. This data, modified from work done in the module, shows that average rainfall is fairly light. This means that you don't have to worry about bad weather at the beach or your triple-scoop sundae having an unwanted topping of rain drops.
 
 ## Summary
-In short, Oahu is a great place to invest in a surf-and-ice cream shop. Why didn't I think of this? The weather is pleasant and moderate year-round. The lows are rarely too low and the highs are rarely too high. And while it may occasionally experience torrential downpours, most days are clear.
+In short, Oahu is a great place to invest in a surf-and-scoop shop. The weather is pleasant and moderate throught the year. The lows are rarely too low and the highs are rarely too high. And while it may occasionally experience torrential downpours, most days are clear.
 
 If one wanted to expand this analysis with more data, I would suggest collecting:
 
